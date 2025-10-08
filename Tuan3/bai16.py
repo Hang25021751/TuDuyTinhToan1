@@ -1,0 +1,5 @@
+n=float(input("Nhập n: "))
+a=int(n) + (n>=0)*(int(n)!=n) 
+b=int(n) - (n<0)
+c=int(n) + (n>=0)*(n-int(n)>=0.5) - (n<0)*(int(n)-n>=0.5)
+print (a,b,c)
